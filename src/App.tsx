@@ -1,6 +1,6 @@
 import React from 'react';
 import Frame from './components/frame';
-import TodoList from './TodoList';
+import Router from './router';
 import './App.css';
 
 // function App(): JSX.Element {
@@ -28,7 +28,7 @@ const App: React.FunctionComponent = () => {
   return (
     <div className="App">
       <Frame>
-        <TodoList />
+        <Router />
       </Frame>
     </div>
   );
